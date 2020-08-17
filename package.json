@@ -1,0 +1,23 @@
+{
+  "name": "node-tutorial",
+  "version": "1.0.0",
+  "description": "Node JS Basics",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "node",
+    "nodejs"
+  ],
+  "author": "Lev Ufimtsev <raykind@list.ru>",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "node": "^14.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
